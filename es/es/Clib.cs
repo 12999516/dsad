@@ -9,29 +9,30 @@ namespace es
     internal class Clib
     {
         private string tit;
-        private string aut;
+        private caut aut;
         private DateTime ann;
         private int pag;
 
-        public Clib() 
+        public Clib()
         {
-            tit = "trm";
-            aut = "dsa";
+            tit = "xxx";
+            aut = new caut();
             ann = DateTime.Now;
             pag = 0;
         }
 
-        public Clib (string t, string aut, DateTime d, int p)
+        public Clib(string t, string aut, DateTime d, int p)
         {
             tit = t;
-            this.aut = aut;
+            this.aut = new caut(aut, "", DateTime.Now);
             ann = d;
             pag = p;
         }
 
         public string info()
         {
-            return $"il libro {tit} è stato scritto da {aut} nel {ann} e ha un totale di {pag} pagine";
+            return $"il libro {tit} è stato scritto da {aut.smp()} nel {ann} e ha un totale di {pag} pagine, alcune info sull'autore sono: {aut.stmp()}";
         }
     }
 }
+

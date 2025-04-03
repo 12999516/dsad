@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace es
 {
@@ -11,14 +11,14 @@ namespace es
         private string nome;
         private string cognome;
         private DateTime dat;
-        private List <Clib> lb;
+        private List<Clib> lb;
 
         public caut()
         {
             nome = "";
             cognome = "";
             dat = DateTime.Now;
-            lb = new();
+            lb = new List<Clib>();
         }
 
         public caut(string n, string c, DateTime d)
@@ -26,24 +26,29 @@ namespace es
             nome = n;
             cognome = c;
             dat = d;
+            lb = new List<Clib>();
         }
 
-        public void trm(string t, string a, DateTime d, int p) 
+        public void trm(string t, string a, DateTime d, int p)
         {
             lb.Add(new Clib(t, a, d, p));
         }
 
-        public string stmp() 
+        public string stmp()
         {
-            string st = $"autore: {nome} {cognome} nato il {dat} libti pubblicati: \n\r";
+            string st = $"autore: {nome} {cognome} nato il {dat} libri pubblicati: \n\r";
             for (int i = 0; i < lb.Count; i++)
             {
                 st += lb[i].ToString();
             }
 
-            return st ;
+            return st;
         }
 
-
+        public string smp() 
+        { 
+            string st = $"{nome}";
+            return st;
+        }
     }
 }
