@@ -7,7 +7,7 @@ namespace es
     {
         private string nome;
         public List<Clib> lib;
-        private List<caut> at;
+        public List<caut> at;
 
         public clibre()
         {
@@ -35,12 +35,12 @@ namespace es
             string st = $"libri:\n\r";
             for (int i = 0; i < lib.Count; i++)
             {
-                st += $"{lib[i].info()} \n\r"; // Corretto per chiamare il metodo info
+                st += $"{lib[i].info()} \n\r";
             }
 
             for (int i = 0; i < at.Count; i++)
             {
-                st += $"{at[i].stmp()} \n\r"; // Corretto per chiamare il metodo stmp
+                st += $"{at[i].stmp()} \n\r";
             }
             return st;
         }

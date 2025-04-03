@@ -9,14 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{155B3404-6A25-441B-BB7F-E1A3A611B27A}|es\\es.csproj|c:\\users\\sebastiano\\desktop\\libro\\dsad\\es\\es\\clib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{155B3404-6A25-441B-BB7F-E1A3A611B27A}|es\\es.csproj|solutionrelative:es\\clib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{155B3404-6A25-441B-BB7F-E1A3A611B27A}|es\\es.csproj|c:\\users\\sebastiano\\desktop\\libro\\dsad\\es\\es\\caut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{155B3404-6A25-441B-BB7F-E1A3A611B27A}|es\\es.csproj|solutionrelative:es\\caut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{155B3404-6A25-441B-BB7F-E1A3A611B27A}|es\\es.csproj|c:\\users\\sebastiano\\desktop\\libro\\dsad\\es\\es\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{155B3404-6A25-441B-BB7F-E1A3A611B27A}|es\\es.csproj|solutionrelative:es\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -36,22 +28,9 @@
               "RelativeDocumentMoniker": "es\\Clib.cs",
               "ToolTip": "C:\\Users\\Sebastiano\\Desktop\\libro\\dsad\\es\\es\\Clib.cs",
               "RelativeToolTip": "es\\Clib.cs",
-              "ViewState": "AgIAAA8AAADgAAAAAIAzwBoAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAABwAAAAAEwBoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T15:09:33.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "caut.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastiano\\Desktop\\libro\\dsad\\es\\es\\caut.cs",
-              "RelativeDocumentMoniker": "es\\caut.cs",
-              "ToolTip": "C:\\Users\\Sebastiano\\Desktop\\libro\\dsad\\es\\es\\caut.cs",
-              "RelativeToolTip": "es\\caut.cs",
-              "ViewState": "AgIAAB8AAAA0MzMzMzM1wCwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:09:33.618Z",
               "EditorCaption": ""
             },
             {
@@ -62,22 +41,9 @@
               "RelativeDocumentMoniker": "es\\clibre.cs",
               "ToolTip": "C:\\Users\\Sebastiano\\Desktop\\libro\\dsad\\es\\es\\clibre.cs",
               "RelativeToolTip": "es\\clibre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAABQ/v////87wAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T15:24:34.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastiano\\Desktop\\libro\\dsad\\es\\es\\Program.cs",
-              "RelativeDocumentMoniker": "es\\Program.cs",
-              "ToolTip": "C:\\Users\\Sebastiano\\Desktop\\libro\\dsad\\es\\es\\Program.cs",
-              "RelativeToolTip": "es\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAMwAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T15:09:33.795Z",
               "EditorCaption": ""
             }
           ]
